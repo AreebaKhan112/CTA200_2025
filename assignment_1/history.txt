@@ -1,0 +1,185 @@
+    1  /cita/local/bin/passwd
+    2   /cita/local/bin/passwd
+    3  exit
+    4  /cita/local/bin/passwd
+    5   /cita/local/bin/passwd
+    6  exit
+    7  ssh -o SendEnv= shrimp
+    8  exit
+    9  ssh cosmo1.cita.utoronto.ca.
+   10  vncserver -geometry 1920x1080
+   11  mkdir
+   12  mkdir test
+   13  cd /mnt/akhan
+   14  cd/mnt/scratch-lustre/akhan
+   15  ll
+   16  ls
+   17  cd ~
+   18  ls
+   19  cd /
+   20  ls
+   21  cd mnt/scratch-lustre/
+   22  ls
+   23  cd akhan
+   24  ls
+   25  git clone https://github.com/CITA/CTA200H.git
+   26  git remote set-url origin https://github.com/AreebaKhan112/CTA200H.git
+   27  ls
+   28  cd CTA200
+   29  cd CTA200H
+   30  https://github.com/AreebaKhan112/CTA200H.git
+   31  cd CTA200H
+   32  ls
+   33  git remote set-url origin https://github.com/AreebaKhan112/CTA200H.git
+   34  cd~
+   35  cd ~
+   36  mkdir CTA200_2025
+   37  cd CTA200_2025
+   38  git init
+   39  touch README.md
+   40  git add README.md
+   41  git commit -m "Initial commit: added README.md"
+   42  git add *.c *.py output_*.txt history.txt
+   43  git status
+   44  ls
+   45  ssh cosmo1.cita.utoronto.ca
+   46  ssh cosmo2.cita.utoronto.ca
+   47  ssh cosmo1.cita.utoronto.ca
+   48  ssh cosmo3.cita.utoronto.ca
+   49  ssh cosmo4.cita.utoronto.ca
+   50  ssh cosmo6.cita.utoronto.ca
+   51  ls
+   52  ls CTA200H
+   53  ls CITA200_2025
+   54  ls CTA200_2025
+   55  cd CTA200_2025
+   56  git init
+   57  cd CTA200_2025
+   58  pwd
+   59  git add README.md
+   60  git commit -m "Add README"
+   61  touch output_c.txt output_python.txt
+   62  history > history.txt
+   63  git add output_c.txt output_python.txt history.txt
+   64  git commit -m "Add output and history files"
+   65  git remote add origin https://github.com/AreebaKhan112/CTA200_2025.git
+   66  git remote -v
+   67  git push -u origin master
+   68  /cita/local/bin/passwd 
+   69  su
+   70  exit
+   71  /cita/local/bin/passwd 
+   72  w
+   73  su - jli
+   74  /cita/local/bin/passwd 
+   75  exit
+   76  whoami
+   77  /cita/local/bin/passwd
+   78  strace -f -o /tmp/passwd.trace /cita/local/bin/passwd
+   79  ls -l /cita/adm/userdb/users.db
+   80  strings /cita/local/bin/passwd | grep pwget
+   81  cd /cita/local/lib/userdb/
+   82  ls -l pwget
+   83  df
+   84  su -
+   85  ls
+   86  /cita/adm/userdb/
+   87  cd /cita/adm/userdb/
+   88  ls -l /cita/local
+   89  cd /cita/local/bin/
+   90  ls
+   91  ls -l passwd 
+   92  whoami
+   93  /cita/local/bin/passwd
+   94  v
+   95  /cita/local/bin/passwd
+   96  exit
+   97  /cita/local/bin/passwd 
+   98  ls
+   99  cd
+  100  pwd
+  101  ls -lrth
+  102  ls -lal
+  103  reset
+  104  stty sane
+  105  export TERM=xterm
+  106  /cita/local/bin/passwd 
+  107  env | grep LD
+  108  env 
+  109  more /cita/local/bin/passwd
+  110  env -i /cita/local/bin/passwd
+  111  ldd /cita/local/bin/passwd
+  112  ldd /cita/local/bin/passwd | wc -l
+  113   env -i PATH=/usr/bin:/bin /cita/local/bin/passwd
+  114  strace -f -o /tmp/passwd.trace /cita/local/bin/passwd
+  115  ssh fox
+  116  exit
+  117  ssh cosmo1.cita.utoronto.ca
+  118  ssh cosmo6.cita.utoronto.ca
+  119  ssh -L 8888:localhost:8888 akhan@gw.cita.utoronto.ca
+  120  jupyter notebook --no-browser --port=8888
+  121  module avail
+  122  which python3
+  123  python3 -m jupyter notebook --no-browser --port=8888
+  124  pip3 install --user jupyter
+  125  ls /usr/bin/python*
+  126  ls /opt/
+  127  ls /usr/local/
+  128  find / -name "conda" 2>/dev/null
+  129  module load python/3.10.2
+  130  jupyter notebook --port=1234 --no-browser
+  131  exit
+  132  ssh -L 1234Llocalhost:1234 cosmo6
+  133   ssh -L 1234:localhost:1234 cosmo6
+  134  exit
+  135  module load python/3.10.2
+  136  jupyter notebook --port=8888 --no-browser
+  137  exit
+  138   ssh -L 8888:localhost:8888 cosmo6
+  139  exit
+  140  ssh -L 5678:localhost:5678 cosmo6
+  141  module load python/3.10.2
+  142  jupyter notebook --port=5678 --no-browser
+  143  git clone https://github.com/CITA/CTA200H/tree/master
+  144  git clone https://github.com/CITA/CTA200H
+  145  jupyter notebook --port=5678 --no-browser
+  146  ssh cosmo1.cita.utoronto.ca
+  147  ssh cosmo2.cita.utoronto.ca
+  148  ssh cosmo6.cita.utoronto.ca
+  149  cd ~/CTA200_2025
+  150  git add assignment_2/assignment.ipynb
+  151  git commit -m "Add assignment 2 notebook"
+  152  git push
+  153  ssh -L 5678:localhost:5678 cosmo6
+  154  module load python/3.10.2
+  155  jupyter notebook --port=5678 --no-browser
+  156  ls /fs/lustre/scratch/akhan
+  157  cd /fs/lustre/scratch/akhan
+  158  mkdir CTA200_2025
+  159  mkdir CTA200_2025/assignment_1
+  160  touch CTA200_2025/assignment_1/README.md
+  161  vi CTA200_2025/assignment_1/README.md
+  162  find /cita/h/home-2/murray -name "Hello_world*"
+  163  find /cita -name "Hello_world*" 2>/dev/null
+  164  cp /cita/h/home-1/murray/Papers/tmp/Hello_world.c /fs/lustre/scratch/akhan/CTA200_2025/assignment_1/
+  165  cp /cita/h/home-1/murray/tmp/Hello_world.py /fs/lustre/scratch/akhan/CTA200_2025/assignment_1/
+  166  ls /fs/lustre/scratch/akhan/CTA200_2025/assignment_1/
+  167  cd /fs/lustre/scratch/akhan/CTA200_2025/assignment_1
+  168  mv Hello_world.c Hello_world_khan.c
+  169  mv Hello_world.py Hello_world_khan.py
+  170  ls
+  171  module load gcc
+  172  gcc Hello_world_khan.c -o Hello_world.x
+  173  ls
+  174  ./Hello_world.x
+  175  python3 Hello_world_khan.py
+  176  vi Hello_world_khan.c
+  177  vi Hello_world_khan.py
+  178  gcc Hello_world_khan.c -o Hello_world.x
+  179  ./Hello_world.x
+  180  python3 Hello_world_khan.py
+  181  ./Hello_world.x > output_c.txt
+  182  python3 Hello_world_khan.py > output_python.txt
+  183  cat output_c.txt
+  184  cat output_python.txt
+  185  history > history.txt
